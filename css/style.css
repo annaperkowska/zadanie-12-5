@@ -1,0 +1,18 @@
+body {
+	box-sizing: border-box;
+}
+button {
+	margin: 30px auto;
+    display: block;
+    background: #BE6087;
+    font-size: 35px;
+    border: 5px inset grey;
+    padding: 20px;
+    border-radius: 20px;
+}
+p {
+	margin: 0 auto;
+	border: 10px inset #BE6087;
+	padding: 30px;
+	border-radius: 20px;
+}

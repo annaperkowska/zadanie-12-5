@@ -1,18 +1,45 @@
 body {
 	box-sizing: border-box;
+	background-image: url(https://images.pexels.com/photos/66875/plumage-feather-bird-pink-66875.jpeg?h=350&auto=compress&cs=tinysrgb);
+	background-size: cover;
+}
+main {
+	font-family: 'Lobster';
+	color: #F1F1F1;
+}
+h1, h2, h3 {
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 35px;
+	font-style: italic;
+	margin: 100px auto;
+}
+h3 {
+	font-size: 25px;
+	margin-bottom: 80px;
 }
 button {
-	margin: 30px auto;
-    display: block;
-    background: #BE6087;
+	margin: 50px auto;
+    background: rgba(0,0,0,0);
     font-size: 35px;
-    border: 5px inset grey;
-    padding: 20px;
-    border-radius: 20px;
+    font-family: 'Lobster';
+    padding: 15px;
 }
-p {
-	margin: 0 auto;
-	border: 10px inset #BE6087;
-	padding: 30px;
+a {
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 25px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+button, a {
+	display: block;
+	border: 5px outset white;
 	border-radius: 20px;
+	color: #F1F1F1;
 }
